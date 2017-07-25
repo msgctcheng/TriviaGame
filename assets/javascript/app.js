@@ -97,7 +97,7 @@ $(".q22").click(function(){
     questionValue = 200;
     countFunction();
     $(".q22").attr("src", "assets/images/blank.png");
-    $(".q2").off("click");
+    $(".q22").off("click");
     document.getElementById("jeopardy").play(); 
 
 });
@@ -219,7 +219,7 @@ $(".q14").click(function(){
     questionValue = 600;
     countFunction();
     $(".q14").attr("src", "assets/images/blank.png");
-    $("q14").off("click");
+    $(".q14").off("click");
     document.getElementById("jeopardy").play(); 
 });
 $(".q24").click(function(){
@@ -230,7 +230,7 @@ $(".q24").click(function(){
     questionValue = 600;
     countFunction();
     $(".q24").attr("src", "assets/images/blank.png");
-    $("q24").off("click");
+    $(".q24").off("click");
     document.getElementById("jeopardy").play(); 
 });
 $(".q34").click(function(){
@@ -241,7 +241,7 @@ $(".q34").click(function(){
     questionValue = 600;
     countFunction();
     $(".q34").attr("src", "assets/images/blank.png");
-    $("q34").off("click");
+    $(".q34").off("click");
     document.getElementById("jeopardy").play(); 
 });
 $(".q44").click(function(){
@@ -252,7 +252,7 @@ $(".q44").click(function(){
     questionValue = 600;
     countFunction();
     $(".q44").attr("src", "assets/images/blank.png");
-    $("q44").off("click");
+    $(".q44").off("click");
     document.getElementById("jeopardy").play(); 
 });
 $(".q54").click(function(){
@@ -263,7 +263,7 @@ $(".q54").click(function(){
     questionValue = 600;
     countFunction();
     $(".q54").attr("src", "assets/images/blank.png");
-    $("q54").off("click");
+    $(".q54").off("click");
     document.getElementById("jeopardy").play(); 
 });
 $(".q64").click(function(){
@@ -274,7 +274,7 @@ $(".q64").click(function(){
     questionValue = 600;
     countFunction();
     $(".q64").attr("src", "assets/images/blank.png");
-    $("q64").off("click");
+    $(".q64").off("click");
     document.getElementById("jeopardy").play(); 
 });
 $(".q15").click(function(){
