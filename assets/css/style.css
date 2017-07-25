@@ -65,7 +65,7 @@ body {
 }
 
 .gameBoard {
-    max-width: 50%;
+    max-width: 65%;
     display: flex;
     flex-flow: row wrap;
     padding-left: 25%;
@@ -78,9 +78,10 @@ body {
 }
 
 .boardItem {
-    flex: 1 0 15%;
+    flex: 1 0 13.5%;
     min-width: 2em;
     border: 5px solid black;
+    width: 100%;
 }
 p {
     font-size: 48px;
@@ -94,19 +95,21 @@ p {
     max-width: 50%;
     background: #000073;
     padding: 0% 5% 0% 5%;
+    
 
 }
 
 
 h3 {
-    margin-left: 35%;
+    margin-left: 30%;
     font-size: 28px;
     
 }
+
 .subButton {
     border-radius: 50%;
     font-family: "gyParody thin";
-    margin-left: 10%;
+    margin-left: 15%;
     padding: 30px 20px;
     font-size: 24px;
     letter-spacing: 1.5px;
@@ -129,16 +132,36 @@ h3 {
 
 .cashAmount {
     color: white;
-    margin-top: 30%;
+    margin-top: 17%;
     margin-left: 37%; 
     font-family: "gyParody thin";
+    letter-spacing: 1.5px;
 }
 
 .timeLeft {
     color: white;
     margin-top: 13%;
-    margin-left: 45%; 
+    margin-left: 30%; 
     font-family: "gyParody thin";
+    letter-spacing: 1.5px;
+    
+}
+
+.right {
+    color: white;
+    margin-left: 30%; 
+    font-family: "gyParody thin";
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+.wrong {
+    color: white;
+
+    margin-left: 30%; 
+    font-family: "gyParody thin";
+    font-size: 18px;
+    letter-spacing: 1.5px;
 }
 
 /*  */
