@@ -1,0 +1,102 @@
+HTML
+MainWrapper
+ Start Page (Div)
+  Show 'Jeopardy Lite' Title
+    Start button
+        Show Jeopardy Board 
+            Show Categories and Questions
+            Show Money
+
+    
+    
+    
+    Jeopardy Board 6x6 (Div w/ 30 sub divs)
+        Quit button
+            Display wrong answer count
+            Display Right answer Count
+            Display Money 
+            continue button
+
+            Reset to Start Page
+                
+        User Money  
+        
+        Pictures for Questions
+            $Amounts - On Click 
+                Question Div
+                    Show Question
+                    Show Answer Choices
+
+                    Show Timer
+                    Display Submit button
+                        on click
+                            Grab answer value
+                            Check answer
+
+                            if correct
+                                Add money
+                                Return to Board
+                                Remove Question from Board
+                                Increase rightAnswer count
+
+                            if wrong
+                                subtract money
+                                return to board
+                                remove question from board
+                                Increase wrongAnswer count
+
+                    Start Countdown
+                        If countDown = 0 
+                            Subtract Money
+                            Return To Board
+                            Remove question from board
+                            Increase wrongAnswer count
+                 
+
+
+        6 Categories
+            Ancient Innovation
+                Waterwheel     
+                Sundial
+                Trebuchet
+                Surfing
+                Damascus Steel
+
+            Cliche Capitals
+                DC 
+                Bejing
+                Budapest
+                Abu Dhabi              
+                La Paz
+
+            Gratuitous Gaming
+                Mario
+                Final Fantasy
+                Dark Souls
+                GlaDOS
+                Zero Wing
+                
+
+            Experimental Psychology
+                Stanford Prison Experiment
+                Milgrams Experiment
+                Pavlov
+                Bobo Doll
+                Harlow's Monkey Experiments
+    
+
+            What a Twist!
+                Signs
+                The Sixth Sense
+                Unbreakable
+                The Village
+                The Visit
+
+            Apocryphal Acronyms
+                USB
+                HTTP
+                SCUBA
+                RADAR
+                TASER
+
+        

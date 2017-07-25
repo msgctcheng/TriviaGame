@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'gyParody';
+    src: url('../fonts/gyparody.woff');
+}
+
+@font-face {
+    font-family: 'gyParody thin';
+    src: url('../fonts/gyparodythin.woff');
+}
+
+body {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.mainWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.startWrapper {
+    align-items: center;
+    color: #d2d7f7;
+    margin-top: 15%;
+
+}
+
+.startBanner {
+    font-family: "gyParody";
+    font-size: 64px;
+}
+
+.startButton {
+    font-family: "gyParody thin";
+    margin-left: 35%;
+    padding: 20px 10px;
+    font-size: 18px;
+    color: white;
+    background: #000073;
+    letter-spacing: 1.5px;
+
+}
+
+.boardWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #d2d7f7;
+    
+   
+    
+}
+.boardBanner {
+    font-family: "gyParody";
+    font-size: 48px;
+    padding-left: 25%;
+}
+
+.gameBoard {
+    max-width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 25%;
+
+}
+
+.row1 {
+    font-family: "Arial";
+    font-weight: 300;
+}
+
+.boardItem {
+    flex: 1 0 15%;
+    min-width: 2em;
+    border: 5px solid black;
+}
+p {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+.quest {
+    margin-top: 5%;
+    margin-left: 30%;
+    color: #d2d7f7;
+    max-width: 50%;
+    background: #000073;
+    padding: 0% 5% 0% 5%;
+
+}
+
+
+h3 {
+    margin-left: 35%;
+    font-size: 28px;
+    
+}
+.subButton {
+    border-radius: 50%;
+    font-family: "gyParody thin";
+    margin-left: 10%;
+    padding: 30px 20px;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}
+
+.podium {
+    float: right;
+    background-image: url("../images/podium.png");
+    background-repeat: no-repeat;
+    width:300px;
+    height:330px;
+    margin-top: 12%;
+    margin-right: 30px;
+    padding-right: 5%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.cashAmount {
+    color: white;
+    margin-top: 30%;
+    margin-left: 37%; 
+    font-family: "gyParody thin";
+}
+
+.timeLeft {
+    color: white;
+    margin-top: 13%;
+    margin-left: 45%; 
+    font-family: "gyParody thin";
+}
+
+/*  */
+

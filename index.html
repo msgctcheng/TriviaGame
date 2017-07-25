@@ -1,12 +1,286 @@
 <!DOCTYPE html>
+
 <html>
+
     <head>
-        <title>
-        </title>
-        
+
+        <title>Jeopardy-Themed Game</title>
+
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
     </head>
+
     <body>
-        <header>
-        </header>
+        <div class="podium">
+            <h2 class="timeLeft">00</h2>
+            <h2 class="cashAmount">$10000</h2>
+             
+        </div>    
+
+        <div class="mainWrapper">
+
+            <div class="startWrapper">
+
+                <h1 class="startBanner">Jeopardy-Themed Triva Game!</h1>
+
+                <button type="button" class="startButton">Click to Begin Game</button>
+
+            </div>
+
+            <div class="boardWrapper">
+
+                <h1 class="boardBanner">Click An Amount To Play!</h1>
+            
+                <div class="gameBoard">
+                    <!--Row 1  -->
+                    <img class="col1 row1 q11 boardItem" src="assets/images/cat1.png"> 
+
+                    <img class="col2 row1 q21 boardItem" src="assets/images/cat2.png">
+                    
+                    <img class="col3 row1 q31 boardItem" src="assets/images/cat3.png"> 
+         
+                    <img class="col4 row1 q41 boardItem" src="assets/images/cat4.png"> 
+        
+                    <img class="col5 row1 q51 boardItem" src="assets/images/cat5.png"> 
+        
+                    <img class="col6 row1 q61 boardItem" src="assets/images/cat6.png">
+                    
+                    <!--Row 2  -->
+                    <img class="col1 row2 q12 boardItem" src="assets/images/200.png"> 
+                    
+                    <img class="col2 row2 q22 boardItem" src="assets/images/200.png"> 
+
+                    <img class="col3 row2 q32 boardItem" src="assets/images/200.png"> 
+
+                    <img class="col4 row2 q42 boardItem" src="assets/images/200.png"> 
+
+                    <img class="col5 row2 q52 boardItem" src="assets/images/200.png"> 
+
+                    <img class="col6 row2 q62 boardItem" src="assets/images/200.png"> 
+                    <!-- Row 3 -->
+                    <img class="col1 row3 q13 boardItem" src="assets/images/400.png"> 
+                
+                    <img class="col2 row3 q23 boardItem" src="assets/images/400.png"> 
+
+                    <img class="col3 row3 q33 boardItem" src="assets/images/400.png"> 
+
+                    <img class="col4 row3 q43 boardItem" src="assets/images/400.png"> 
+
+                    <img class="col5 row3 q53 boardItem" src="assets/images/400.png"> 
+
+                    <img class="col6 row3 q63 boardItem" src="assets/images/400.png"> 
+                        <!--Row 4  -->
+                    <img class="col1 row4 q14 boardItem" src="assets/images/600.png"> 
+                    
+                    <img class="col2 row4 q24 boardItem" src="assets/images/600.png"> 
+
+                    <img class="col3 row4 q34 boardItem" src="assets/images/600.png"> 
+
+                    <img class="col4 row4 q44 boardItem" src="assets/images/600.png"> 
+
+                    <img class="col5 row4 q54 boardItem" src="assets/images/600.png"> 
+
+                    <img class="col6 row4 q64 boardItem" src="assets/images/600.png"> 
+                    <!--Row 5  -->
+                    <img class="col1 row4 q15 boardItem" src="assets/images/800.png"> 
+                    
+                    <img class="col2 row5 q25 boardItem" src="assets/images/800.png"> 
+
+                    <img class="col3 row5 q35 boardItem" src="assets/images/800.png"> 
+
+                    <img class="col4 row5 q45 boardItem" src="assets/images/800.png"> 
+
+                    <img class="col5 row5 q55 boardItem" src="assets/images/800.png"> 
+
+                    <img class="col6 row5 q65 boardItem" src="assets/images/800.png"> 
+                    <!--Row 6  -->
+                    <img class="col1 row4 q16 boardItem" src="assets/images/1000.png"> 
+                    
+                    <img class="col2 row6 q26 boardItem" src="assets/images/1000.png"> 
+
+                    <img class="col3 row6 q36 boardItem" src="assets/images/1000.png"> 
+
+                    <img class="col4 row6 q46 boardItem" src="assets/images/1000.png"> 
+
+                    <img class="col5 row6 q56 boardItem" src="assets/images/1000.png"> 
+
+                    <img class="col6 row6 q66 boardItem" src="assets/images/1000.png"> 
+                                     
+                </div>
+            </div>
+            <!--Questions # : Col/Row  
+                    Colum 1 -->
+             <div class="ques12 quest">
+                <p>This rotating invention dates as far back as the 4th century BCE. Historically, it has served to lift water for irrigation and as a power source.</p>
+                <br>
+                <h3>What is the "_______"?
+                <form id="form1">
+                    <ul>
+                        <input type="radio" name="answer1" value="0"> Windmill<br>
+                        <input type="radio" name="answer1" value="0"> Spokes<br>
+                        <input type="radio" name="answer1" value="1"> Water Wheel<br>
+                        <input type="radio" name="answer1" value="0"> Dam<br>
+                    </ul>
+                    <br>
+                    <input class="subButton" type="submit" value="Submit">
+                </form>
+
+            </div>
+
+           <div class="ques13 quest">
+                <p>This ancient invention made use of the sun to determine the time of day.</p>
+                <br>
+                <h3>What is the '_______'?
+                <form id="form1">
+                    <ul>
+                        <input type="radio" name="answer1" value="1"> Sundial<br>
+                        <input type="radio" name="answer1" value="0"> Hourglass<br>
+                        <input type="radio" name="answer1" value="0"> Pendulum<br>
+                        <input type="radio" name="answer1" value="0"> Pocket Watch<br>
+                    </ul>
+                    <input class="subButton" type="submit" value="Submit">
+                </form>
+
+            </div>
+
+           <div class="ques14 quest">
+                <p>This ancient siege engine uses a swinging arm to launch a projectile. Later versions often used a large counterweight to swing the arm.</p>
+                <br>
+                <h3>What is the '_______'?
+                <form id="form1">
+                    <ul>
+                        <input type="radio" name="answer1" value="0"> Catapult<br>
+                        <input type="radio" name="answer1" value="1"> Trebuchet<br>
+                        <input type="radio" name="answer1" value="0"> Ballista<br>
+                        <input type="radio" name="answer1" value="0"> Onager<br>
+                    </ul>
+                    <input class="subButton" type="submit" value="Submit">
+                </form>
+
+            </div>
+
+            <!--<div class="ques15 quest">
+                <p>Question</p>
+                <br>
+                <h3>What is '_______'?
+                <form id="form1">
+                    <ul>
+                        <input type="radio" name="answer1" value="a">Answer 1<br>
+                        <input type="radio" name="answer1" value="b">Answer 2<br>
+                        <input type="radio" name="answer1" value="c">Answer 3<br>
+                        <input type="radio" name="answer1" value="d">Answer 4<br>
+                    </ul>
+                    <input class="subButton" type="submit" value="submit">
+                </form>
+
+            </div>
+
+            <div class="ques16 quest">
+                <p>Question</p>
+                <br>
+                <h3>What is '_______'?
+                <form id="form1">
+                    <ul>
+                        <input type="radio" name="answer1" value="a">Answer 1<br>
+                        <input type="radio" name="answer1" value="b">Answer 2<br>
+                        <input type="radio" name="answer1" value="c">Answer 3<br>
+                        <input type="radio" name="answer1" value="d">Answer 4<br>
+                    </ul>
+                    <input class="subButton" type="submit" value="submit">
+                </form>
+
+            </div> -->
+
+            <!--Colum 2  -->
+
+            <!-- <div class="ques22 quest">
+            </div>
+
+            <div class="ques23 quest">
+            </div>
+
+            <div class="ques24 quest">
+            </div>
+
+            <div class="ques25 quest">
+            </div>
+
+            <div class="ques26 quest">
+            </div>  -->
+
+            <!--Colum 3  -->
+
+            <!-- <div class="ques32 quest">
+            </div>
+
+            <div class="ques33 quest">
+            </div>
+
+            <div class="ques34 quest">
+            </div>
+
+            <div class="ques35 quest">
+            </div>
+
+            <div class="ques36 quest">
+            </div> -->
+
+            <!--Colum 4  -->
+
+            <!-- <div class="ques42 quest">
+            </div>
+
+            <div class="ques43 quest">
+            </div>
+
+            <div class="ques44 quest">
+            </div>
+
+            <div class="ques45 quest">
+            </div>
+
+            <div class="ques46 quest">
+            </div> -->
+
+            <!--Colum 5  -->
+
+            <!-- <div class="ques52 quest">
+            </div>
+
+            <div class="ques53 quest">
+            </div>
+
+            <div class="ques54 quest">
+            </div>
+
+            <div class="ques55 quest">
+            </div>
+
+            <div class="ques56 quest">
+            </div> -->
+
+            <!--Colum 6  -->
+
+            <!-- <div class="ques62 quest">
+            </div>
+
+            <div class="ques63 quest">
+            </div>
+
+            <div class="ques64 quest">
+            </div>
+
+            <div class="ques65 quest">
+            </div>
+
+            <div class="ques66 quest">
+            </div> -->
+
+            
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <script src="assets/javascript/app.js"></script> 
     </body>
 </html>
