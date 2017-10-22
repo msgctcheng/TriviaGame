@@ -7,7 +7,7 @@ Preview GIF:
 
 Play the Game: https://msgctcheng.github.io/TriviaGame/
 
-* This trivia game was one of my early projects using HTML, CSS, and JavaScript/jQuery.  I chose the theme because Ive alway's been a fan of Jeopardy.
+* This trivia game was one of my early projects using HTML, CSS, and JavaScript/jQuery.  I chose the theme because Ive always been a fan of Jeopardy.
 
 * The game is a single round of multiple choice questions, using `radio` buttons for answer choices.
 
